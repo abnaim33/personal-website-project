@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    color:rgb(22, 74, 109)
+}
+p{
+    color:rgb(136, 135, 135);
+    font-size: 1rem;
+    font-weight: 600;
+}
+img{
+    height: 100%;
+    width:100%
+}
+/* header and about part */
+.container{
+    width: 80vw;
+    height:70vh;
+
+}
+.header,.about{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:2rem auto;
+   
+}
+.header_left,.about_left,.about_right{
+    width: 40%;
+
+}
+.header_right{
+    width: 35%;
+}
+.header_description,.about_description{
+margin: 1.2rem 0;
+}
+
+button{
+    padding:.8rem 2rem;
+    border:none;
+    outline:none;
+    background: tomato;
+    border-radius: .3rem;
+    color:white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background: rgb(167, 68, 50);
+}
+
+
+/* latest works part */
+.latest_works{
+    background: whitesmoke;
+    margin:4rem auto;
+    height: 80vh;
+}
+
+.latest_works_body{
+    padding-bottom: 2rem;
+}
+.card{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+  
+}
+.latest_works_card1,.latest_works_card2,.latest_works_card3{
+height: 80%;
+width: 31%;
+background: white;
+padding: .8rem; 
+border-radius: .5rem;
+box-shadow: 5px 10px 18px lightgray;
+
+}
+.card_header{
+    height: 70%;
+ 
+}
+
+.work_inquiry{
+    background-image: url('./images/work-inquery.png');
+    width: 75vh;
+    margin:auto;
+    height: 30vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem;
+}
+
+
+/* contact page */
+.contact{
+    background: whitesmoke;
+    margin: auto;
+    height: 80vh;
+
+}
+.contact_header{
+  padding:2rem;
+  text-align: center;
+}
+
+.contact_body{
+    padding-bottom: 2rem;
+    width: 40%;
+    margin:auto;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 100%;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 999px;
+    outline:none
+}
